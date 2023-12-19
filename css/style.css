@@ -12,7 +12,7 @@
 
 .header-section .navbar-section nav .navbar-1{
   background-color: whitesmoke;
-  height: 56px;
+  height: 8.8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@
   height: 50vh;
   background-repeat: no-repeat;
   background-size: 100%;
-} 
+}
 
 .navbar-section nav .navbar-image-section .navbar-image h1{
   color: white;
