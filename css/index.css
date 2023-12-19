@@ -1,0 +1,85 @@
+/* ======== HEADER-SECTION-START ======== */
+
+/* -------- NAVBAR-SECTION-START -------- */
+
+/* ---- NAVBAR-1-START ---- */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-section .navbar-section nav .navbar-1{
+  background-color: whitesmoke;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-section nav .navbar-1 .left-side .logo h1{
+  margin: 0 24px 0 24px;
+  font-size: 24px;
+}
+
+.navbar-section nav .navbar-1 .right-side{
+  margin: 0 24px 0 0;
+  display: flex;
+  gap: 26px;
+}
+
+.navbar-section nav .navbar-1 .right-side a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-section nav .navbar-1 .right-side a:hover{
+  font-weight: 688;
+}
+
+/* -- NAVBAR-1-COMPLETE -- */
+
+/* -- NAVBAR-IMAGE-SECTION-START -- */
+
+.navbar-section nav .navbar-image-section .navbar-image{
+  background-image: url('/image/background/background image.jpg');
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+} 
+
+.navbar-section nav .navbar-image-section .navbar-image h1{
+  color: white;
+  font-size: 34px;
+  font-weight: 688;
+  word-spacing: 16px;
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 116px 0 0 0;
+}
+
+.navbar-section nav .navbar-image-section .navbar-image .search{
+  margin: 0 0 0 188px;
+  padding: 10px 178px 10px 178px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: none;
+}
+
+.navbar-image-section .navbar-image .search-button{
+  padding: 10px 16px 10px 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: none;
+}
+
+/* -- NAVBAR-IMAGE-SECTION-COMPLETE -- */
+
+/* -- NAVBAR-2-START -- */
+
+.header-section .navbar-section nav .navbar-2{
+  background-color: whitesmoke;
+  height: 56px;
+}
